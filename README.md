@@ -1,12 +1,12 @@
-# LV 1 zadatak - Osobna stranica
+# LV 1 zadatak - Čvarci.net
 
-### LINK: 
+### Heroku LINK: 
 
 <hr />
 
 ## Opis zadatka
 
-Izradite vlastitu osobnu web stranicu prema primjeru dizajna početne stranice na desktop rezoluciji. Potrebno je izrezati navedeni dizajn u HTML-u i CSS-u. Dizajn se nalazi na sljedećoj poveznici: [Link](https://www.figma.com/file/eAv1yU9fOTmlzZgpa3PKLv/Personal-portfolio-website-(Community)?node-id=0%3A1&t=ctrhGeQpF9UzoE0l-1)
+Paki je web developer koji je u posljednje vrijeme uzeo hrpu posla za odraditi. Kako ne bi dobio loš review na Freelance stranici outsource-ao Vas je da mu odradite jedan posao. Stranica Čvarci.net poslala mu je primjer dizajna početne stranice na desktop rezoluciji. Potrebno je izrezati navedeni dizajn u HTML-u i CSS-u. Dizajn se nalazi na sljedećoj poveznici: [Link](https://www.figma.com/file/WWYUP1fGmT76sjjLTAEtji/%C4%8Dvarci.net?node-id=0%3A1)
 
 #### Potrebno je:
 
@@ -16,9 +16,8 @@ Izradite vlastitu osobnu web stranicu prema primjeru dizajna početne stranice n
 - Prilagoditi HTML kod da odgovara SEO značajkama
 - Uključiti ARIA atribute kako bi prilagodili web stranicu čitačima zaslona
 
-Napravljen zadatak potrebno je postaviti na internet koristeći neki poslužitelj i gore na "LINK:" dodati poveznicu na navedeni zadatak. Zadatak koji nije postavljen na servis bodovat će se s 0 bodova. Popis poslužiteljskih usluga:
 
-https://github.com/anandrmedia/heroku-free-alternatives
+Napravljen zadatak potrebno je postaviti na Heroku Servis i gore na "Heroku LINK:" dodati poveznicu na navedeni zadatak. Zadatak koji nije postavljen na Heroku servis bodovat će se s 0 bodova.
 
 ### Korisni linkovi prilikom rješavanja zadatka
 

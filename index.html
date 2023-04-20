@@ -1,12 +1,282 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivana Ivanić</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><?= "Hello LV1 task" ?></h1>
+    <div class="header-container">
+        <div class="header">
+            <div class="logo">
+                <img src="images/Logo.png" alt="logo" />
+            </div>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about-me">About me</a>
+                <a href="#testemonials">Testemonials</a>
+            </nav>
+            <button class="contact-button">
+                <a href="#contact">Contact me</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="header-info">
+        <div class="header-left">
+            <div class="info_content">
+                <p class="info_header">Hey, I am John</p>
+                <p class="info_sub_header">I create <span style="color:#5E3BEE">product design </span>and brand experience</p>
+                <p class="info_mock_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+
+            <div class="info_actions">
+                <button class="info_button">Get in Touch</button>
+            </div>
+         </div>
+                
+        <img class="info_img" src="images/Group 11 1.png">
+    </div>
+
+    <div class="my_skill">
+        <div class="section_title">
+            <p class="title">My skills</p>
+            <div class="section_title_content">
+                <p class="subtitle">My Expertise</p>
+            </div>
+        </div>
+
+        <div class="skill_row">
+            <div class="content">
+                <img class="content_img" src="images/My Skill/product-chain 1-1.png">
+                <p class="content_title">Strategy & Direction</p>
+                <p class="content_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+
+            <div class="content">
+                <img class="content_img" src="images/My Skill/tag 1-1.png">
+                <p class="content_title">Branding & Logo</p>
+                <p class="content_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+
+            <div class="content">
+                <img class="content_img" src="images/My Skill/feather-pen 1-2.png">
+                <p class="content_title">UI & UX Design</p>
+                <p class="content_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+
+            <div class="content">
+                <img class="content_img" src="images/My Skill/feather-pen 1-3.png">
+                <p class="content_title">Webflow Development</p>
+                <p class="content_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+
+        <img class="about_me_img" src="images/About Me.png">
+        <div class="about_me_right_container">
+            <p class="title">About</p>
+            <p class="subtitle">About me</p>
+            <p class="about_me_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.
+
+                Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+        </div>
+    </div>
+
+    <div class="blog">
+        <div class="blog_header">
+            <div class="blog_header_title">
+                <p class="title">Recent Projects</p>
+                <p class="subtitle">My Portfolio</p>
+            </div>
+            <button class="blog_button" style="color: #fff;"><img src="images/Social icon.png" style="width: 2em;height: 2em;">Visit my Dribble</button>
+        </div>
+
+        <div class="blog_content">
+            <div class="blog_card">
+                <img class="blog_card_img" src="images/Blog/Placeholder/Image.png">
+                <div class="blog_info_content">
+                    <p class="blog_card_title">Ahuse</p>
+                    <p class="blog_card_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <div class="dribble">
+                        <p class="underline_text">View In Dribble</p>
+                        <img class="dribble_img" src="images/vector.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog_card">
+                <img class="blog_card_img" src="images/Blog/Placeholder/Image-1.png">
+                <div class="blog_info_content">
+                    <p class="blog_card_title">App Dashboard</p>
+                    <p class="blog_card_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <div class="dribble">
+                        <p class="underline_text">View In Dribble</p>
+                        <img class="dribble_img" src="images/vector.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog_card">
+                <img class="blog_card_img" src="images/Blog/Placeholder/Image-2.png">
+                <div class="blog_info_content">
+                    <p class="blog_card_title">Easy Rent</p>
+                    <p class="blog_card_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                    <div class="dribble">
+                        <p class="underline_text">View In Dribble</p>
+                        <img class="dribble_img" src="images/vector.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="testemonial">
+        <div class="testemonial_title_section">
+            <p class="title">Clients Feedback</p>
+            <p class="subtitle">Customer testemonials</p>
+        </div>
+
+        <div class="testemonial_content">
+            <div class="testemonial_card">
+                <img class="stars" src="images/Stars.png">
+                <p class="testemonial_paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+                <div class="avatar_content">
+                     <img class="avatar_img" src="images/Avatar Image.png">
+                    <div class="avatar_info">
+                        <p class="avatar_title">Diane Russel</p>
+                        <p class="avatar_subtitle">Starbucks</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testemonial_card">
+                <img class="stars" src="images/Stars.png">
+                <p class="testemonial_paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+                <div class="avatar_content">
+                     <img class="avatar_img" src="images/Avatar Image-1.png">
+                    <div class="avatar_info">
+                        <p class="avatar_title">Kristin Watson</p>
+                        <p class="avatar_subtitle">Louis Vuitton</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testemonial_card">
+                <img class="stars" src="images/Stars.png">
+                <p class="testemonial_paragraph">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+                <div class="avatar_content">
+                     <img class="avatar_img" src="images/Avatar Image-2.png">
+                    <div class="avatar_info">
+                        <p class="avatar_title">Kathryn Murphy</p>
+                        <p class="avatar_subtitle">McDonald's</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="contact">
+    <div class="contact_section_title">
+        <p class="contact_title">Get In Touch</p>
+        <p class="contact_subtitle">Contact me</p>
+        <p class="contact_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="contact_form">
+        <div class="form_inputs">
+            <div class="form_input">
+                <p class="form_input_name">First name</p>
+                <input type="text" class="form_input_field">
+            </div>
+            <div class="form_input">
+                <p class="form_input_name">Last name</p>
+                <input type="text" class="form_input_field">
+            </div>
+        </div>
+
+        <div class="form_inputs">
+            <div class="form_input">
+                <p class="form_input_name">Email</p>
+                <input type="text" class="form_input_field">
+            </div>
+            <div class="form_input">
+                <p class="form_input_name">Phone number</p>
+                <input type="text" class="form_input_field">
+            </div>
+        </div>
+
+        <div class="form_topic">
+            <p class="form_input_name">Choose a topic</p>
+            <select class="form_input_topic">
+                <option>Select one...</option>
+            </select>
+        </div>
+
+        <div class="form_message">
+            <p class="form_input_name">Message</p>
+            <input type="text" class="form_message_input" placeholder="Type your message...">
+        </div>
+
+        <div class="checkbox_button">
+            <input type="checkbox">
+            <p class="terms_title">I accept the terms</p>
+        </div>
+
+        <div class="form_button">
+            <button class="info_button">Submit</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer">
+
+    <div class="footer_content">
+        <div class="logo">
+            <img src="images/Logo.png" alt="logo" />
+        </div>
+        
+        <div class="footer_links">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about-me">About me</a>
+                <a href="#contact">Contact</a>
+                <a href="#testemonials">Testemonials</a>
+        </div>
+        <div class="footer_social_links">
+                
+                    <img src="images/Footer/Facebook.png">
+                    <img src="images/Footer/Instagram.png">
+                    <img src="images/Footer/Twitter.png">
+                    <img src="images/Footer/LinkedIn.png">
+                    
+                
+                
+        </div>
+    </div>
+
+
+
+    <div class="footer_credits">
+        <div class="divider"></div>
+        <div class="credits_row">
+            <p class="credits_row_text">Made with 💖 by Airdokan </p>
+            <div class="footer_links">
+                <p class="footer_links_text">Privacy Policy</p>
+                <p class="footer_links_text">Terms of Service</p>
+                <p class="footer_links_text">Cookies Settings</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
 </body>
 </html>
