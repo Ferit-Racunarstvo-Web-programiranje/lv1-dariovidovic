@@ -2,6 +2,10 @@
 
 ### Heroku LINK: 
 
+
+https://capable-biscotti-5b2197.netlify.app
+
+
 <hr />
 
 ## Opis zadatka
